@@ -7,7 +7,7 @@ page.getByRole('button', { name: 'Submit' }).click(); //to locate buttons by the
 page.getByText('Welcome').click(); //to locate elements by their visible text
 page.getByTitle('My Title').click(); //to locate elements by their title attribute
 page.getByLabel('Email').fill('myemail@example.com'); //to locate input fields by their label
-page.getByTestId('my-element').click(); //to locate elements by their test ID
+page.getByTestId('my-element').click(); //to locate elements by their test ID (data-testid)
 */
 
 test ('Builtin Locators', async ({ page }) => {
